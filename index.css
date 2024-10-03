@@ -170,9 +170,25 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.cvImg {
+    border-radius:32px;
+}
 
 .form-info {
     width: 40%;
+}
+.form-img{
+    position: relative;
+}
+.abs3 {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+.abs4 {
+    left: 40%;
+    top: 5%;
+    position: absolute;
 }
 
 .menu {
