@@ -40,6 +40,7 @@ body {
     display: flex;
     align-items:center;
     justify-content: space-between;
+    font-family: 'Inter';
 }
 
 .btn:hover {
@@ -55,6 +56,7 @@ body {
     padding: 20px 0;
 }
 .header ul{
+    font-family: 'Inter';
     display: flex;
     gap: 16px;
     align-items:center; 
@@ -109,6 +111,7 @@ body {
 .text {
     margin-top: 24px;
     font-size: 1em;
+    font-family: 'Inter';
 }
 .hero-img img {
     border-radius: 32px;
@@ -124,10 +127,14 @@ body {
     align-items:center;
     flex-direction: column;
 }
+.descr {
+    font-family: 'Inter';
+}
 .card-wrapper {
     margin-top: 86px;
     display: flex;
     justify-content: space-between;
+    font-family: 'Inter';
 }
 .subtitle {
     margin-top: 48px;
@@ -177,6 +184,7 @@ body {
     display: flex;
     gap: 16px;
     align-items:center;
+    font-family: 'Inter';
 }
 .menu ul a{
     display: flex;
@@ -190,11 +198,13 @@ body {
 }
 .footer-text {
     color:#838284d2;
+    font-family: 'Inter';
 }
 
 .made-by {
     display: flex;
     justify-content: flex-end;
+    font-family: 'Inter';
 }
 
 .menu li:hover {
