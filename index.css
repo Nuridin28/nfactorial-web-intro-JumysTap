@@ -5,6 +5,10 @@ a {
     text-decoration: none;
     color:black;
 }
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
 body {
     margin: 0;
     font-family: "Kanit";
@@ -94,12 +98,16 @@ body {
 .abs1 {
     position: absolute;
     top: 4%;
-    left: 35%;
+    left: 35%; 
+    max-width: 50%;
+    max-height: 50%;
 }
 .abs2 {
     position: absolute;
     top: 50%;
     left: 74%;
+    max-width: 50%;
+    max-height: 50%;
 }
 .hero-info .btn {
     margin-top: 48px;
@@ -226,4 +234,114 @@ body {
 
 .menu li:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 1400px) {
+    .footer .menu {
+        flex-direction: column  ;
+    }
+}
+@media (max-width: 1230px) {
+    .footer .menu {
+        flex-direction: column  ;
+    }
+    .cv-form-wrapper{
+        gap: 20px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .title {
+        text-align: center;
+    }
+    .form-img {
+        align-self: center;
+    }
+
+    .hero-wrapper {
+        flex-direction: column-reverse;
+    }
+    .cv-form-wrapper {
+        flex-direction: column;
+    }
+    .hero-info {
+        width: 100%;
+        text-align: center;
+    }
+    .hero-info .btn {
+        margin: 48px auto 0;
+    }
+    .form-info{
+        width: 100%;
+        text-align: center;
+    }
+    .card {
+        text-align: center;
+    }
+    .footer-text {
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.5em;
+    }
+    .container {
+        padding:0 24px;
+    }
+    .hero {
+        padding: 32px 0;
+    }
+    .hero-info {
+        margin-top: 54px;
+    }
+    .hero-info .btn {
+        margin: 48px auto 0;
+    }
+    .header ul {
+        display: none;
+    }
+    .card-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+    }
+    .card {
+        width: 100%;
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+    .search{
+        flex-direction: column;
+    }
+    .search-img {
+        top: 5%;
+    }
+    .search input {
+        width: 100%;
+    }
+
+    .footer .menu {
+        flex-direction: column;
+        align-items:start;
+    }
+    .footer ul {
+        flex-direction: column;
+        font-size: 0.875em;
+        gap: 16px;
+        align-items:start;
+        padding: 0;
+    }
+    .made-by {
+        justify-content: start;
+    }
+    .upload-btn {
+        width:20%;
+        gap: 5px;
+    }
+    .abs1, .abs2, .abs3, .abs4 {
+        max-width: 30%;
+        max-height: 30%;
+    }
 }
